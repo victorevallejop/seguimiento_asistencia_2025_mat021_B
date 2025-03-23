@@ -8,8 +8,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 10px;
-            padding: 10px;
+            margin: 20px;
+            padding: 20px;
             background-color: #f4f4f4;
         }
         .container {
@@ -17,10 +17,10 @@
             flex-direction: column;
             align-items: center;
             background: white;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-            min-width: 750px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            min-width: 850px;
         }
         .header {
             display: flex;
@@ -30,24 +30,24 @@
         .student-info, .course-info {
             width: 48%;
             background: #e8f0fe;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 15px;
+            border-radius: 10px;
         }
         .charts {
             display: flex;
             justify-content: space-between;
             width: 100%;
-            min-width: 700px;
-            margin-top: 10px;
+            min-width: 800px;
+            margin-top: 20px;
         }
         .chart-container-circle, .chart-container-bar {
-            min-width: 250px;
-            height: 300px;
+            min-width: 400px;
+            height: auto;
         }
-        .chart-container-circle { width: 36%; max-width: 250px; }
+        .chart-container-circle { width: 36%; max-width: 400px; }
         .chart-container-bar { width: 60%; max-width: 1200px; }
-        #attendanceChart { width: 250px !important; height: 250px !important; }
-        #historicalChart { width: 100%; max-height: 250px; }
+        #attendanceChart { width: 350px !important; height: 350px !important; }
+        #historicalChart { width: 100%; max-height: 350px; }
         .search {
             margin-bottom: 20px;
         }
@@ -67,6 +67,7 @@
                 <p><strong>RUT:</strong> -</p>
                 <p><strong>Correo:</strong> -</p>
                 <p><strong>Carrera:</strong> -</p>
+                <p><strong>Universidad:</strong> -</p>
             </div>
             <div class="course-info" id="courseInfo">
                 <h3>Resumen de Asistencia</h3>
